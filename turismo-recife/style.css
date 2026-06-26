@@ -12,6 +12,11 @@ header{
     color:white;
     text-align:center;
     padding:30px;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
 }
 
 /* Conteúdo */
@@ -59,4 +64,20 @@ footer{
     text-align:center;
     padding:15px;
     margin-top:30px;
+}
+.pontos{
+    display:flex;
+    justify-content:space-around;
+    align-items:flex-start;
+    flex-wrap:wrap;
+    gap:20px;
+}
+
+.card{
+    width:300px;
+    background:white;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    text-align:center;
 }
